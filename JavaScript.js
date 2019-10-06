@@ -66,10 +66,10 @@ for(var i=0; 1<=5; i++ ){
 
  function somar(){
     
-     var cont= 1;
-     while(cont <=5){
-        document.write(cont + "<br/>");
-        cont++;
-     }
- }
- //
+    var cont= 1;
+    while(cont <=5){
+       document.write(cont + "<br/>");
+       cont++;
+    }
+}
+//
