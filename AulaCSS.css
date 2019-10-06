@@ -1,0 +1,30 @@
+body{
+    background:#ff0016;
+}
+p{
+    text-align: right; /*Determina o alinhamento do texto*/
+    background:chocolate;
+}
+/*Formatações diferentes parar a mesma tag dar um nome .nome*/
+p.centro{
+    text-align: center;
+}
+/*Classe generica pra utilizar em qualquer tag*/
+.generica{
+    font-family: "Arial";
+    color:white;
+}
+h1,h2,h5{
+    color: greenyellow;
+    font-family:'Lucida Sans';
+}
+/*Formatar linkis*/
+a:hover{/* hover ao passar o maouse */
+    color:white;
+    font-size: 50px;/* Tamanho da fonte em pixel*/
+}
+/*core do link visitado*/
+a:visited{
+    color:yellowgreen;
+}
+/**/

@@ -8,7 +8,7 @@ function tabuada(){
         document.write("5 x " + cont + " =  " + tabuada + "<br/>");
         cont++;
      }
- }
+    }
 
  
 /*
