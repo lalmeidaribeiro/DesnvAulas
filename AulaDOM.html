@@ -1,0 +1,41 @@
+<!DOCTYPE .html>
+<html>
+<head>
+    <meta charset="UFT-8"/>
+    <title>Aula DOM</title>
+    <script src="AulaDom.js"></script>
+</head>
+<body id='corpo'>
+    <p id='paragrafo'>Primeira Linha</p>
+    <form id='teste'>
+        <label>Nome:</label><br/>
+        <input type="text" id='nome'/><br/>
+        <input type="button" value="Clique" onclick="pegar_nome()"/>
+
+        <input type="button" value="Escrever" onclick="escrever()"/>
+        <input type="button" value="Tabuada" onclick="tabuada()"/><br/><br/>
+
+       <input type="text" id='n1'/><br/>
+       <input type="text" id='n2'/><br/>
+       <input type="button" value="Somar" onclick="somar()"/><br/>
+
+    </form>
+</body>
+</html>
+
+<!--
+    Aula DOM -> Document Object Model
+
+    Cria basicamente a estrutura do html, seguindo uma estrutura básica(a ordem que a gente escreve o html).
+ 
+ **Usa-se dentro do java Script
+
+ - A tributos <form name=""> precisa de um nome 
+ - Agora o ID tbm é importante <form name='' id=''>   
+  
+  ID-> funciona pra identificar os elementos dentro da página, e chamo-lo em determinadas funções.
+  ONCLICK é um evento-> Pega a função.
+  BUTTON or SUBMIT-> Não muda muita coisa, button dá mais liberdade, submit não tem tanta liberdade de formatação.
+button Não envia nada então SEMPRE precisa criar o evento onclick.
+
+-->
